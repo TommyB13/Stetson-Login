@@ -1,0 +1,244 @@
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0%;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 100%;
+    }
+  }
+
+@keyframes fadeBlack {
+    0% {
+        opacity: 0%;
+      }
+    100% {
+    opacity: 100%;
+    }
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 390px;
+    width: calc(100% - 60px);
+    padding: 44px;
+    
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 6px rgb(0 0 0 / 20%);
+    -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 6px rgb(0 0 0 / 20%);
+    min-width: 320px;
+    min-height: 190px;
+    overflow: hidden;
+    
+    
+  }
+
+.section2 {
+    
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color: #F2F2F2;
+    max-width: 390px;
+    width: calc(100% - 60px);
+    min-width: 320px;
+    padding-left: 44px;
+    padding-bottom: 30px;
+    padding-right: 44px;
+    padding-top: 20px;
+    object-fit: cover;
+  }
+
+.section2 p{
+    animation: 0.3s ease-out 0s 1 slideInFromRight;
+    font-size: 15px;
+    padding-top: 5px;
+    margin: 6px 0px 4px;
+    text-align: left;
+    
+   
+ } 
+ 
+ .section2 p a{
+    animation: 0.3s ease-out 0s 1 slideInFromRight;
+    font-size: 15px;
+    text-decoration: none;
+    color: #0072C6;
+    
+}
+
+body{
+    animation: 0.5s ease-out 0s 1 fadeBlack;
+    font-family: "Segoe UI Webfont","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+    line-height: 1.5;
+    font-size: 16px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.5)) , url("images/illustration.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: absolute;
+    color: #000;
+    padding: 0;
+    padding-top: 200px;
+    margin: 0;
+    align-content: center;
+}
+
+.container{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 768px;
+}
+
+header{
+    margin-top: 24px;
+}
+
+section h1{
+    animation: 0.3s ease-out 0s 1 slideInFromRight;
+    font-family: "Segoe UI Webfont","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 300;
+    line-height: 1.75rem;
+    padding-bottom: 2.3632px;
+    padding-top: 2.3632px;
+    color: #1b1b1b;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+section p{
+    animation: 0.3s ease-out 0s 1 slideInFromRight;
+    font-size: 13px;
+    padding-top: 5px;
+    margin: 6px 0px 4px;
+    text-align: left;
+    transition-timing-function: ease;
+    transition: width 2s;
+}
+
+
+section p a{
+    animation: 0.3s ease-out 0s 1 slideInFromRight;
+    text-decoration: none;
+    color: #0072C6;
+    
+}
+
+section img{
+    text-align: left;
+}
+
+section #form-input input{
+    animation: 0.3s ease-out 0s 1 slideInFromRight;
+    width: 345px;
+    height: 30px;
+    padding: 4px 8px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(0,0,0,0.4);
+    background-color: rgba(255,255,255,0.4);
+    height: 32px;
+    height: 2rem;
+    padding: 6px 10px;
+    border-width: 1px;
+    border-color: #666;
+    border-color: rgba(0,0,0,0.6);
+    height: 36px;
+    outline: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    background-color: transparent;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    padding-left: 0;
+}
+
+section #form-submit button{
+    animation: 0.3s ease-out 0s 1 slideInFromRight;
+    width: 345px;
+    height: 30px;
+    background-color: #0067B8;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    margin: 4px 12px;
+    
+}
+
+section #form-submit button:hover{
+    border: 2px solid #004E8C;
+    cursor: pointer;
+}
+
+section #form-input ::placeholder{
+    font-size: 15px;
+}
+
+
+.tile-img.medium {
+    width: 32px;
+    height: 32px;
+    padding-right: 7px;
+}
+
+.table {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 390px;
+    width: calc(100% - 60px);
+    margin-top: 25px;
+    padding-left: 44px;
+    padding-bottom: 10px;
+    padding-right: 44px;
+    padding-top: 10px;
+    min-width: 320px;
+}
+
+.table .table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: visible;
+    z-index: 99;
+    clear: both;
+    min-height: 28px;
+}
+
+footer a{
+    margin: 5px 20px;
+    text-decoration: none;
+    color: #0067B8;
+}
+
+section #form-submit button{
+    width: 25%;
+    float: right;
+}
+
